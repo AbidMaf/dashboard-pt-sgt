@@ -9,7 +9,6 @@ export default function LoginPage({ children }) {
     const router = useRouter();
 
     const onFinish = (values) => {
-        console.log({values})
         return router.push("/dashboard");
     }
 
